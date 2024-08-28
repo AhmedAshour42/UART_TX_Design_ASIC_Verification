@@ -1,0 +1,180 @@
+**************************************************
+Report         : passing_points
+
+Reference      : Ref:/WORK/top
+Implementation : Imp:/WORK/top
+Version        : L-2016.03-SP1
+Date           : Wed Aug 28 08:54:10 2024
+**************************************************
+
+48 Passing compare points:
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[0]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[0]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[10]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[10]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[11]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[11]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[12]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[12]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[13]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[13]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[14]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[14]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[15]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[15]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[16]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[16]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[17]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[17]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[18]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[18]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[19]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[19]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[1]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[1]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[20]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[20]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[21]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[21]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[22]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[22]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[23]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[23]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[24]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[24]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[25]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[25]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[26]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[26]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[27]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[27]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[28]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[28]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[29]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[29]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[2]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[2]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[30]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[30]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[31]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[31]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[3]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[3]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[4]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[4]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[5]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[5]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[6]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[6]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[7]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[7]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[8]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[8]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/counter_reg[9]
+  Impl DFF        Imp:/WORK/top/DUT_1/counter_reg[9]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[0]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[0]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[1]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[1]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[2]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[2]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[3]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[3]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[4]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[4]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[5]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[5]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[6]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[6]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/parrllel_data_reg[7]
+  Impl DFF        Imp:/WORK/top/DUT_1/parrllel_data_reg[7]
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/ser_data_reg
+  Impl DFF        Imp:/WORK/top/DUT_1/ser_data_reg
+
+  Ref  DFF        Ref:/WORK/top/DUT_1/valid_reg_reg
+  Impl DFF        Imp:/WORK/top/DUT_1/valid_reg_reg
+
+  Ref  DFF        Ref:/WORK/top/DUT_2/par_reg
+  Impl DFF        Imp:/WORK/top/DUT_2/par_reg
+
+  Ref  DFF        Ref:/WORK/top/DUT_3/current_state_reg[0]
+  Impl DFF        Imp:/WORK/top/DUT_3/current_state_reg[0]
+
+  Ref  DFF        Ref:/WORK/top/DUT_3/current_state_reg[1]
+  Impl DFF        Imp:/WORK/top/DUT_3/current_state_reg[1]
+
+  Ref  DFF        Ref:/WORK/top/DUT_3/current_state_reg[2]
+  Impl DFF        Imp:/WORK/top/DUT_3/current_state_reg[2]
+
+  Ref  Port       Ref:/WORK/top/Busy
+  Impl Port       Imp:/WORK/top/Busy
+
+  Ref  Port       Ref:/WORK/top/TX_out
+  Impl Port       Imp:/WORK/top/TX_out
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

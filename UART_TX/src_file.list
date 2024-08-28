@@ -1,0 +1,9 @@
+FSM.v 
+FSM_tb.v
+mux.v
+Parity.v
+Parity_tb.v
+serializer.v
+serializer_tb.v
+top.v
+top_tb.v

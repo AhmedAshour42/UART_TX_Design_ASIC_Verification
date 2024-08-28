@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : area
+Design : top
+Version: K-2015.06
+Date   : Wed Aug 28 08:53:31 2024
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/Labs/UART_TX_ASIC/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                          124
+Number of nets:                           362
+Number of cells:                          180
+Number of combinational cells:            127
+Number of sequential cells:                48
+Number of macros/black boxes:               0
+Number of buf/inv:                         18
+Number of references:                       6
+
+Combinational area:               1290.839921
+Buf/Inv area:                      104.726302
+Noncombinational area:            1312.020519
+Macro/Black Box area:                0.000000
+Net Interconnect area:           69020.345123
+
+Total cell area:                  2602.860440
+Total area:                      71623.205564
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------
+top                               2602.8604    100.0     8.2369     0.0000  0.0000  top
+DUT_1                             2215.7261     85.1   548.3422  1193.1738  0.0000  serializer
+DUT_1/add_34                       474.2101     18.2   474.2101     0.0000  0.0000  serializer_DW01_inc_0
+DUT_2                              125.9069      4.8    98.8428    27.0641  0.0000  Parity
+DUT_3                              216.5128      8.3   124.7302    91.7826  0.0000  FSM
+DUT_4                               36.4777      1.4    36.4777     0.0000  0.0000  mux
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------
+Total                                                 1290.8399  1312.0205  0.0000
+
+1

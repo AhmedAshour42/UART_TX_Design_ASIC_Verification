@@ -1,0 +1,48 @@
+Loading db file '/home/IC/Labs/UART_TX_ASIC/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : top
+Version: K-2015.06
+Date   : Wed Aug 28 08:53:32 2024
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/Labs/UART_TX_ASIC/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+top                    tsmc13_wl30       scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+top                                    4.38e-05 1.07e-04 1.76e+06 1.91e-03 100.0
+  DUT_1 (serializer)                   2.33e-05 9.34e-05 1.44e+06 1.56e-03  81.3
+    add_34 (serializer_DW01_inc_0)     6.01e-07 1.29e-07 4.32e+05 4.32e-04  22.6
+  DUT_4 (mux)                          5.00e-06 3.55e-07 2.91e+04 3.45e-05   1.8
+  DUT_3 (FSM)                          7.80e-06 7.85e-06 1.83e+05 1.99e-04  10.4
+  DUT_2 (Parity)                       5.38e-06 5.11e-06 1.04e+05 1.15e-04   6.0
+1

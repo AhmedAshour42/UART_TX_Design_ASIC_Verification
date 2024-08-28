@@ -1,0 +1,242 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /TOP_INTEFACE/top_tbs
+=== Design Unit: work.top_tb
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/TOP_INTEFACE/top_tbs/#ublk#129394338#71/immed__72
+                     top_tb.sv(72)                      0          1
+
+=================================================================================
+=== Instance: /pkg_rand
+=== Design Unit: work.pkg_rand
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    92.85%
+        Coverpoints/Crosses          7        na        na        na
+            Covergroup Bins         29        28         1    96.55%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pkg_rand/UART_TX_class/UART_TX_class__1/cov     92.85%        100          -    Uncovered            
+    covered/total bins:                                    28         29          -                      
+    missing/total bins:                                     1         29          -                      
+    % Hit:                                             96.55%        100          -                      
+    Coverpoint par_en_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint par_type_cov                           100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Data_valid_cov                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint P_data_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross1                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Cross cross2                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross3                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/pkg_rand::UART_TX_class::UART_TX_class__1::cov  
+                                                       92.85%        100          -    Uncovered            
+    covered/total bins:                                    28         29          -                      
+    missing/total bins:                                     1         29          -                      
+    % Hit:                                             96.55%        100          -                      
+    Coverpoint par_en_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ONE                                          7429          1          -    Covered              
+        bin ZERO                                         2542          1          -    Covered              
+        bin transct                                      5533          1          -    Covered              
+    Coverpoint par_type_cov                           100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ONE                                          5543          1          -    Covered              
+        bin ZERO                                         4428          1          -    Covered              
+        bin transct                                      1928          1          -    Covered              
+    Coverpoint Data_valid_cov                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ONE                                         25038          1          -    Covered              
+        bin ZERO                                        74962          1          -    Covered              
+    Coverpoint P_data_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin even_data[0]                                  301          1          -    Covered              
+    Cross cross1                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin one_data_valid                              0          1          -    ZERO                 
+            bin <ZERO,even_data[0]>                       301          1          -    Covered              
+    Cross cross2                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin even_parity                              3358          1          -    Covered              
+            bin odd_parity                               4071          1          -    Covered              
+            bin <transct,transct>                        1122          1          -    Covered              
+            bin <transct,ZERO>                           2510          1          -    Covered              
+            bin <transct,ONE>                            3023          1          -    Covered              
+            bin <ZERO,transct>                            470          1          -    Covered              
+            bin <ZERO,ZERO>                              1070          1          -    Covered              
+            bin <ZERO,ONE>                               1472          1          -    Covered              
+            bin <ONE,transct>                            1458          1          -    Covered              
+    Cross cross3                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin even_p_data                                 9          1          -    Covered              
+            bin <transct,transct,even_data[0]>              1          1          -    Covered              
+            bin <transct,ZERO,even_data[0]>                 1          1          -    Covered              
+            bin <transct,ONE,even_data[0]>                  3          1          -    Covered              
+            bin <ZERO,transct,even_data[0]>                 7          1          -    Covered              
+            bin <ZERO,ZERO,even_data[0]>                    1          1          -    Covered              
+            bin <ONE,transct,even_data[0]>                 23          1          -    Covered              
+            bin <ONE,ZERO,even_data[0]>                     7          1          -    Covered              
+            bin <ONE,ONE,even_data[0]>                     24          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pkg_rand/UART_TX_class/UART_TX_class__1/cov     92.85%        100          -    Uncovered            
+    covered/total bins:                                    28         29          -                      
+    missing/total bins:                                     1         29          -                      
+    % Hit:                                             96.55%        100          -                      
+    Coverpoint par_en_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint par_type_cov                           100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint Data_valid_cov                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint P_data_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross1                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+    Cross cross2                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross3                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/pkg_rand::UART_TX_class::UART_TX_class__1::cov  
+                                                       92.85%        100          -    Uncovered            
+    covered/total bins:                                    28         29          -                      
+    missing/total bins:                                     1         29          -                      
+    % Hit:                                             96.55%        100          -                      
+    Coverpoint par_en_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ONE                                          7429          1          -    Covered              
+        bin ZERO                                         2542          1          -    Covered              
+        bin transct                                      5533          1          -    Covered              
+    Coverpoint par_type_cov                           100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ONE                                          5543          1          -    Covered              
+        bin ZERO                                         4428          1          -    Covered              
+        bin transct                                      1928          1          -    Covered              
+    Coverpoint Data_valid_cov                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ONE                                         25038          1          -    Covered              
+        bin ZERO                                        74962          1          -    Covered              
+    Coverpoint P_data_cov                             100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin even_data[0]                                  301          1          -    Covered              
+    Cross cross1                                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin one_data_valid                              0          1          -    ZERO                 
+            bin <ZERO,even_data[0]>                       301          1          -    Covered              
+    Cross cross2                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin even_parity                              3358          1          -    Covered              
+            bin odd_parity                               4071          1          -    Covered              
+            bin <transct,transct>                        1122          1          -    Covered              
+            bin <transct,ZERO>                           2510          1          -    Covered              
+            bin <transct,ONE>                            3023          1          -    Covered              
+            bin <ZERO,transct>                            470          1          -    Covered              
+            bin <ZERO,ZERO>                              1070          1          -    Covered              
+            bin <ZERO,ONE>                               1472          1          -    Covered              
+            bin <ONE,transct>                            1458          1          -    Covered              
+    Cross cross3                                      100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin even_p_data                                 9          1          -    Covered              
+            bin <transct,transct,even_data[0]>              1          1          -    Covered              
+            bin <transct,ZERO,even_data[0]>                 1          1          -    Covered              
+            bin <transct,ONE,even_data[0]>                  3          1          -    Covered              
+            bin <ZERO,transct,even_data[0]>                 7          1          -    Covered              
+            bin <ZERO,ZERO,even_data[0]>                    1          1          -    Covered              
+            bin <ONE,transct,even_data[0]>                 23          1          -    Covered              
+            bin <ONE,ZERO,even_data[0]>                     7          1          -    Covered              
+            bin <ONE,ONE,even_data[0]>                     24          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 92.85%  COVERGROUP TYPES: 1
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/TOP_INTEFACE/top_tbs/#ublk#129394338#71/immed__72
+                     top_tb.sv(72)                      0          1
+
+Total Coverage By Instance (filtered view): 96.42%
+

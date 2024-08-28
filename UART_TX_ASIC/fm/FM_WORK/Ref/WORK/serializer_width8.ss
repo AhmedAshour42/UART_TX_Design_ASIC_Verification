@@ -1,0 +1,1 @@
+-1 12 43 11 13 75 5147 33 2 FMR_ELAB-147/home/IC/Labs/UART_TX_ASIC/rtl/serializer.v/serializerparrllel_dataIndex may take values outside array bound, may cause simulation mismatch ..

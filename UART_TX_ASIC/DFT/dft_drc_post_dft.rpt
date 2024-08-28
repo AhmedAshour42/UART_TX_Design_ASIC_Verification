@@ -1,0 +1,115 @@
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 0
+
+-----------------------------------------------------------------
+
+
+Test Design rule checking did not find violations
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 46 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      *  46 cells are valid scan cells
+         DUT_2/par_reg
+         DUT_3/current_state_reg[2]
+         DUT_3/current_state_reg[1]
+         DUT_3/current_state_reg[0]
+         DUT_1/ser_data_reg
+         DUT_1/counter_reg[29]
+         DUT_1/counter_reg[24]
+         DUT_1/counter_reg[23]
+         DUT_1/parrllel_data_reg[5]
+         DUT_1/parrllel_data_reg[1]
+         DUT_1/parrllel_data_reg[6]
+         DUT_1/parrllel_data_reg[2]
+         DUT_1/parrllel_data_reg[4]
+         DUT_1/parrllel_data_reg[0]
+         DUT_1/parrllel_data_reg[7]
+         DUT_1/parrllel_data_reg[3]
+         DUT_1/valid_reg_reg
+         DUT_1/counter_reg[10]
+         DUT_1/counter_reg[9]
+         DUT_1/counter_reg[6]
+         DUT_1/counter_reg[5]
+         DUT_1/counter_reg[2]
+         DUT_1/counter_reg[13]
+         DUT_1/counter_reg[14]
+         DUT_1/counter_reg[17]
+         DUT_1/counter_reg[18]
+         DUT_1/counter_reg[21]
+         DUT_1/counter_reg[22]
+         DUT_1/counter_reg[25]
+         DUT_1/counter_reg[26]
+         DUT_1/counter_reg[27]
+         DUT_1/counter_reg[28]
+         DUT_1/counter_reg[30]
+         DUT_1/counter_reg[31]
+         DUT_1/counter_reg[0]
+         DUT_1/counter_reg[3]
+         DUT_1/counter_reg[4]
+         DUT_1/counter_reg[1]
+         DUT_1/counter_reg[11]
+         DUT_1/counter_reg[12]
+         DUT_1/counter_reg[7]
+         DUT_1/counter_reg[8]
+         DUT_1/counter_reg[15]
+         DUT_1/counter_reg[16]
+         DUT_1/counter_reg[19]
+         DUT_1/counter_reg[20]
+
+....Inferring feed-through connections....
+Information: Test design rule checking completed. (TEST-123)
+  Running test coverage estimation...
+ 2078 faults were added to fault list.
+ 0            1262    230         0/0/0    88.40%      0.00
+ 0             149     81         0/0/0    95.57%      0.00
+ 0              36     44         1/0/0    97.35%      0.00
+ 0              44      0         1/0/0    99.47%      0.00
+ 
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           0
+ -----------------------------------------------
+ 
+
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT       2066
+ Possibly detected                PT          0
+ Undetectable                     UD          1
+ ATPG untestable                  AU         11
+ Not detected                     ND          0
+ -----------------------------------------------
+ total faults                              2078
+ test coverage                            99.47%
+ -----------------------------------------------
+  Information: The test coverage above may be inferior
+               than the real test coverage with customized
+               protocol and test simulation library.
+1

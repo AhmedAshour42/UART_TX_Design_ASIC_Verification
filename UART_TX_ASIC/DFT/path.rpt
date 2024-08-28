@@ -1,0 +1,104 @@
+ 
+****************************************
+Report : Scan path
+Design : top
+Version: K-2015.06
+Date   : Wed Aug 28 08:58:53 2024
+****************************************
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Specification
+========================================
+No scan path defined in this mode.
+
+ 
+****************************************
+Report : Scan path
+Design : top
+Version: K-2015.06
+Date   : Wed Aug 28 08:58:53 2024
+****************************************
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Existing DFT
+========================================
+
+========================================
+AS SPECIFIED BY USER
+========================================
+
+
+========================================
+AS BUILT BY insert_dft
+========================================
+
+Scan_path    Len   ScanDataIn  ScanDataOut ScanEnable  MasterClock SlaveClock
+-----------  ----- ----------- ----------- ----------- ----------- -----------
+I 1          46    SI          SO          SE          scan_clk    -
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Existing DFT
+========================================
+
+========================================
+AS SPECIFIED BY USER
+========================================
+
+
+========================================
+AS BUILT BY insert_dft
+========================================
+
+Scan_path     Cell_#    Instance_name            Clocks
+---------     ------    -------------            ------
+I 1           0         DUT_1/counter_reg[0]     scan_clk 
+              1         DUT_1/counter_reg[1]
+              2         DUT_1/counter_reg[2]
+              3         DUT_1/counter_reg[3]
+              4         DUT_1/counter_reg[4]
+              5         DUT_1/counter_reg[5]
+              6         DUT_1/counter_reg[6]
+              7         DUT_1/counter_reg[7]
+              8         DUT_1/counter_reg[8]
+              9         DUT_1/counter_reg[9]
+              10        DUT_1/counter_reg[10]
+              11        DUT_1/counter_reg[11]
+              12        DUT_1/counter_reg[12]
+              13        DUT_1/counter_reg[13]
+              14        DUT_1/counter_reg[14]
+              15        DUT_1/counter_reg[15]
+              16        DUT_1/counter_reg[16]
+              17        DUT_1/counter_reg[17]
+              18        DUT_1/counter_reg[18]
+              19        DUT_1/counter_reg[19]
+              20        DUT_1/counter_reg[20]
+              21        DUT_1/counter_reg[21]
+              22        DUT_1/counter_reg[22]
+              23        DUT_1/counter_reg[23]
+              24        DUT_1/counter_reg[24]
+              25        DUT_1/counter_reg[25]
+              26        DUT_1/counter_reg[26]
+              27        DUT_1/counter_reg[27]
+              28        DUT_1/counter_reg[28]
+              29        DUT_1/counter_reg[29]
+              30        DUT_1/counter_reg[30]
+              31        DUT_1/counter_reg[31]
+              32        DUT_1/parrllel_data_reg[0]
+              33        DUT_1/parrllel_data_reg[1]
+              34        DUT_1/parrllel_data_reg[2]
+              35        DUT_1/parrllel_data_reg[3]
+              36        DUT_1/parrllel_data_reg[4]
+              37        DUT_1/parrllel_data_reg[5]
+              38        DUT_1/parrllel_data_reg[6]
+              39        DUT_1/parrllel_data_reg[7]
+              40        DUT_1/ser_data_reg
+              41        DUT_1/valid_reg_reg
+              42        DUT_2/par_reg
+              43        DUT_3/current_state_reg[0]
+              44        DUT_3/current_state_reg[1]
+              45        DUT_3/current_state_reg[2]
+
+1

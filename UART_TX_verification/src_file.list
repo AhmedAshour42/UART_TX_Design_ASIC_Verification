@@ -1,0 +1,9 @@
+pkg_rand.sv
+FSM.sv 
+mux.v
+Parity.v
+serializer.v
+top.sv
+top_tb.sv
+TOP_INTEFACE.sv
+interface.sv
